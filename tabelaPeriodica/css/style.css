@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+.container{
+    margin: 0;
+}
+.tableCabecalho{
+    text-align: center;
+}
+.tableGrupo{
+    margin: 50px 0 0 80px; 
+    width: 91.5vw;
+}
+.tableGrupo span{
+    font-size: 11px;
+    font-weight: bold;
+}
+.tableGrupo td{
+    width: 4.8vw;
+    text-align: center;
+    font-size: 12px;
+    background: #F3F3F3;
+    border-collapse: collapse;
+    border: 1px solid #F3F3F3;
+}
+.tabela{
+    display: flex;
+}
+.tablePeriodo{
+    display: flex;
+    margin: 30px 0 0 30px;
+}
+.tablePeriodo span{
+    font-size: 11px;
+    font-weight: bold;
+    writing-mode: vertical-lr;
+}
+.tablePeriodo td{
+    height: 3.5vw;
+    width: 1.3vw;
+    text-align: center;
+    font-size: 12px;
+    background: #F3F3F3;
+    display: block;
+    padding-top: 20px;
+}
+.periodic{
+    margin: 30px 0 0 15px;
+    width: 88vw;
+}
+.periodicCell{
+    width: 4.8vw;
+    height: 10.5vh;
+    text-align: center;
+}
+.numAtm{
+    font-size: 12px;
+}
+.simbAtm{
+    font-size: 20px;
+    font-weight: bold;
+}
+.nomePAtm{
+    font-size: 10px;
+}
+.celulaNaoMet{
+    border: 1px solid #000;
+    background: #A2E550;
+}
+.celulaGaNob{
+    border: 1px solid #000;
+    background: #85AEE0;
+}
+.celulaMetAlca{
+    background: #EDC955;
+    border: 1px solid #000;
+}
+.celulaMetAlca-Terro{
+    background: #E9E551;
+    border: 1px solid #000;
+}
+.celulaSemiMet{
+    background: #78C7B8;
+    border: 1px solid #000;
+}
+.celulaHalo{
+    background: #AEE4F4;
+    border: 1px solid #000;
+}
+.celulaOutMet{
+    background: #A8CAD2;
+    border: 1px solid #000;
+}
+.celulaMetTrans{
+    background: #EF9CAE;
+    border: 1px solid #000
+}
+.celulaLant{
+    background: #A1E1DE;
+    border: 1px solid #000;
+}
+.celulaActi{
+    background: #E6AADE;
+    border: 1px solid #000;
+}
+#celula57-71{
+    margin-left: 4px;
+}

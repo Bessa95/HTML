@@ -1,0 +1,104 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    /*font-family: 'Source Code Pro', monospace;*/
+    font-family: 'VT323', monospace;
+    background: #2B2B2B;
+}
+header{
+    background: #1B191A;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar-icon{
+    height: 8vh;
+    border-radius: 40px;
+    align-items: center;
+    margin-top: 5px;
+}
+button{
+    padding: 21.5px;
+    background: #1B191A;
+    color: #60A1DF;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+button:hover{
+    animation: changeBg 1s infinite alternate linear;
+    background: #60A1DF;
+    color: #FFECDE;
+}
+@keyframes changeBg{
+    0%{
+        background: #ee6055;
+    }
+    25%{
+        background: #60d394;
+    }
+    50%{
+        background: #aaf683;
+    }
+    75%{
+        background: #ffd97d;
+    }
+    100%{
+        background: #ff9b85;
+    }
+}
+
+.main{
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 60vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-container{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.left-container-image{
+    width: 30vw;
+}
+.text-container{
+    width: 50vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #646060;
+    border-radius: 5px;
+    margin-right: 10px;  
+    margin-top: 50px;  
+    color: #FFECDE;
+    font-size: 22px;
+}
+.text-container > p{
+    max-width: 400px;
+    
+}
+.text-container > h1{
+    color: #FFECDE;
+    
+}
