@@ -70,42 +70,145 @@ body{
     border: 1px solid #000;
     background: #A2E550;
 }
+.celulaNaoMet:hover{
+    scale: 1.2;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px 3px #588522;
+}
 .celulaGaNob{
     border: 1px solid #000;
     background: #85AEE0;
+}
+.celulaGaNob:hover{
+    scale: 1.2;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px 3px #2a7fe6;
 }
 .celulaMetAlca{
     background: #EDC955;
     border: 1px solid #000;
 }
+.celulaMetAlca:hover{
+    scale: 1.2;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px 3px #d4a60c;
+}
 .celulaMetAlca-Terro{
     background: #E9E551;
     border: 1px solid #000;
+}
+.celulaMetAlca-Terro:hover{
+    scale: 1.2;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px 3px #c9c20e;
 }
 .celulaSemiMet{
     background: #78C7B8;
     border: 1px solid #000;
 }
+.celulaSemiMet:hover{
+    scale: 1.2;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px 3px #14977f;
+}
 .celulaHalo{
     background: #AEE4F4;
     border: 1px solid #000;
+}
+.celulaHalo:hover{
+    scale: 1.2;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px 3px #3dafd1;
 }
 .celulaOutMet{
     background: #A8CAD2;
     border: 1px solid #000;
 }
+.celulaOutMet:hover{
+    scale: 1.2;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px 3px #4ca0b3;
+}
 .celulaMetTrans{
     background: #EF9CAE;
     border: 1px solid #000
+}
+.celulaMetTrans:hover{
+    scale: 1.2;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px 3px #c95d74;
 }
 .celulaLant{
     background: #A1E1DE;
     border: 1px solid #000;
 }
+.celulaLant:hover{
+    scale: 1.2;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px 3px #47a39f;
+}
 .celulaActi{
     background: #E6AADE;
     border: 1px solid #000;
 }
+.celulaActi:hover{
+    scale: 1.2;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px 3px #e25ed1;
+}
 #celula57-71{
     margin-left: 4px;
+}
+.subititles{
+    margin-left: 80px;
+}
+.legNaoMet{
+    width: 20px;
+    height: 20px;
+    background: #A2E550;
+}
+.legMetAlca{
+    width: 20px;
+    height: 20px;
+    background: #EDC955;
+}
+.legSemiMet{
+    width: 20px;
+    height: 20px;
+    background: #78C7B8;
+}
+.legOutMet{
+    width: 20px;
+    height: 20px;
+    background: #A8CAD2;
+}
+.legLant{
+    width: 20px;
+    height: 20px;
+    background: #A1E1DE;
+}
+.legGaNob{
+    width: 20px;
+    height: 20px;
+    background: #85AEE0;
+}
+.legMetAlca-Terro{
+    width: 20px;
+    height: 20px;
+    background: #E9E551;
+}
+.legHalo{
+    width: 20px;
+    height: 20px;
+    background: #AEE4F4;
+}
+.legMetTrans{
+    width: 20px;
+    height: 20px;
+    background: #EF9CAE;
+}
+.legActi{
+    width: 20px;
+    height: 20px;
+    background: #E6AADE;
 }
