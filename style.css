@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    background: #381D35;
+    color: #F4F4F4;
+    padding: 0 10vw;
+}
+.title{
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 30px;
+    padding: 8px 0 0 0;
+    width: 80vw;
+    height: 10vh;
+    border: 2px solid #F4F4F4;
+    border-radius: 75px;
+    box-sizing: border-box;
+}
+.content{
+    height: 80vh;
+    width: 80vw;
+}
+.cards{
+    margin-top: 5vh;
+    height: 78vh;
+    background: #F4F4F4;
+    border-radius: 30px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 26vw;
+    height: 38vh;
+    border: 1px solid #381D35;
+    color: #381D35;
+    float: left;
+}
+li{
+    list-style: none;
+}
+button{
+    cursor: pointer;
+}
