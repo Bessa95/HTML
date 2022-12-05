@@ -62,4 +62,10 @@
     height: 50px;
     font-size: 17px;
     color: #381D35;
+    cursor: pointer;
+  }
+  #totalTip{
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
   }
