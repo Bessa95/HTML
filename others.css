@@ -147,6 +147,10 @@ button{
     body{
         font-size: 12px;
     }
+    .total{
+        width: 100vw;
+        height: 100vh;
+    }
     .nav-bar{
         width: 100vw;
         height: 7vh;
@@ -194,8 +198,22 @@ button{
         height: 20vh;
     }
     .template img{
-        margin: 150px 0 0 -70px;
+        margin: 120px 0 0 -100px;
         width: 90vw;
     }
     
 }
+/* @media only screen and (max-width: 409px){
+    .total{
+        width: 100vw;
+        height: 100vh;
+    }
+    .nav-bar{
+        width: 100vw;
+        height: 7vh;
+    }
+    .container{
+        height: 90vh;
+    }
+    
+} */
