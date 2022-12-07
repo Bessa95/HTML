@@ -5,13 +5,12 @@ body{
     font-family: 'Roboto Mono', monospace;
     background: linear-gradient(145deg, #d1dde3, #f8ffff);
     color: #000;
-    padding: 0 10vw;
 }
 .title{
-    margin-top: 3vh;
+    margin: 3vh 10vw;
     text-align: center;
     font-size: 30px;
-    padding: 8px 0 0 0;
+    padding: 8px 10vw 0 10vw;
     width: 80vw;
     height: 10vh;
     /* border: 1px solid #d1dde3; */
@@ -24,8 +23,9 @@ body{
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.555);
 }
 .content{
-    height: 80vh;
+    height: 82vh;
     width: 80vw;
+    margin: 0 10vw;
 }
 .cards{
     margin-top: 5vh;
@@ -107,25 +107,34 @@ a{
 @media only screen and (max-width: 600px){
     .title{
         font-size: 25px;
+        font-weight: 700;
         display: flex;
+        background: #000;
+        border: none;
+        color: #ffffff;
+        margin: 0;
+        border-radius: 0;
+        width: 100vw;
     }
     .title span{
         position: absolute;
-        margin: 20px;
+        margin: 20px 30px;
     }
     .content{
         width: 90vw;
-        height: 100vh;
+        height: 90vh;
         display: contents;
     }
     .card{
         display: contents;
-        width: 20vw;
-        height: 30vh;
-        padding: 15px;
+        width: 30vw;
+        height: 20vh;
+    }
+    .card a{
+        padding: 25px;
         color: #000;
         float: left;
-        border: 1px solid #d1dde3;
+        border: 2px solid #d1dde3;
         border-radius: 30px;
         background: linear-gradient(145deg, #d1dde3, #f8ffff);
         box-shadow:  34px 34px 68px #b3bdc2,
