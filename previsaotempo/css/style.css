@@ -4,4 +4,41 @@ body{
     background: -webkit-radial-gradient(circle, rgba(255,158,0,1) 0%, rgba(255,213,0,1) 100%);
     background: radial-gradient(circle, rgba(255,158,0,1) 0%, rgba(255,213,0,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff9e00",endColorstr="#ffd500",GradientType=1);
+    
+}
+.container{
+    /* width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg #2cd9ff, #7effb2);
+    background-size:  400% 400%;
+    animation: anim 2.5s infinite ease-in-out; */
+}
+
+@keyframes anim{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+/* Large Screen */
+@media only screen and (max-width: 1200px){
+    
+}
+/* Notebook */
+@media only screen and (max-width: 992px){
+
+}
+/* Tablet */
+@media only screen and (max-width: 768px){
+
+}
+/* Mobile */
+@media only screen and (max-width: 600px){
+
 }
