@@ -91,6 +91,9 @@ body{
     margin-top: 50px;
     width: 45vw;
 }
+.img-py{
+    border-radius: 20px;
+}
 
 
 @keyframes shake-horizontal{
