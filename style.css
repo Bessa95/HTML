@@ -3,7 +3,7 @@
 body{
     margin: 0;
     font-family: 'Roboto Mono', monospace;
-    background: #381D35;
+    background: #26272C;
     color: #F4F4F4;
     padding: 0 10vw;
 }
@@ -14,8 +14,13 @@ body{
     padding: 8px 0 0 0;
     width: 80vw;
     height: 10vh;
-    border: 2px solid #F4F4F4;
+    border: 1px solid #26272C;
     border-radius: 75px;
+    box-shadow: 20px 15px 57px -4px #000000,
+                -15px -15px 36px -13px rgba(255,255,255,0.42),
+                inset 17px 17px 24px 0px rgba(255,255,255,0.25),
+                inset -15px -15px 25px -3px rgba(0,0,0,0.50);
+    background: #FF6443;
     box-sizing: border-box;
 }
 .content{
@@ -25,8 +30,6 @@ body{
 .cards{
     margin-top: 5vh;
     height: 78vh;
-    background: #F4F4F4;
-    border-radius: 30px;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -34,11 +37,19 @@ body{
     align-items: center;
 }
 .card{
+    margin-right: 5px;
     width: 26vw;
     height: 38vh;
-    border: 1px solid #381D35;
-    color: #381D35;
+    border: 1px solid #26272C;
+    border-radius: 30px;
+    color: #26272C;
     float: left;
+    box-shadow: 20px 15px 57px -4px #000000,
+                -15px -15px 36px -13px rgba(255,255,255,0.42),
+                inset 17px 17px 24px 0px rgba(255,255,255,0.25),
+                inset -15px -15px 25px -3px rgba(0,0,0,0.50);
+    background: #FF6443;
+    text-align: center;
 }
 li{
     list-style: none;
