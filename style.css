@@ -22,6 +22,8 @@ body{
                 inset -15px -15px 25px -3px rgba(0,0,0,0.50);
     background: #FF6443;
     box-sizing: border-box;
+    color: #000;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.555);
 }
 .content{
     height: 80vh;
@@ -50,6 +52,41 @@ body{
                 inset -15px -15px 25px -3px rgba(0,0,0,0.50);
     background: #FF6443;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.card:hover{
+    scale: 1.1;
+    animation: shake-horizontal 1.1s linear both;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+}
+.icons{
+    width: 50px;
+    
+}
+
+@keyframes shake-horizontal{
+    0%, 100%{
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%{
+        transform: translateX(-10px);
+    }
+    20%, 40%, 60%{
+        transform: translateX(10px);
+    }
+    80%{
+        transform: translateX(8px);
+    }
+    90%{
+        transform: translateX(-8px);
+    }
 }
 li{
     list-style: none;
