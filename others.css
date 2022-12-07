@@ -14,7 +14,7 @@ body{
 .nav-bar{
     width: 100vw;
     height: 10vh;
-    background: #000;
+    background: #111;
     /* box-shadow: 5px #000; */
     display: flex;
 }
@@ -30,9 +30,16 @@ body{
 }
 .menu a{
     margin-right: 50px;
-    padding: 0 10px;
+    padding: 5px 15px;
     text-decoration: none;
     color: #fff;
+}
+.menu a:hover{
+    /* animation-duration: 1.2; */
+    border: 1px solid #000;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #111111, #202020);
+    box-shadow: 4px 4px 10px #1d1d1d, -4px -4px 10px rgb(61, 61, 61);
 }
 .menu img{
     display: block;
@@ -157,7 +164,7 @@ button{
     }
     .icon{
         margin: 12px;
-        width: 25px;
+        width: 35px;
     }
     .menu{
         position: absolute;
@@ -170,7 +177,7 @@ button{
         padding: 0 5px;
     }    
     .menu img{
-        width: 25px;
+        width: 35px;
         margin-top: -8px;
     }
     .escondido{
@@ -203,17 +210,3 @@ button{
     }
     
 }
-/* @media only screen and (max-width: 409px){
-    .total{
-        width: 100vw;
-        height: 100vh;
-    }
-    .nav-bar{
-        width: 100vw;
-        height: 7vh;
-    }
-    .container{
-        height: 90vh;
-    }
-    
-} */
