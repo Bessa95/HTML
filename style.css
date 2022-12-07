@@ -4,37 +4,31 @@ body{
     margin: 0;
     font-family: 'Roboto Mono', monospace;
     background: linear-gradient(145deg, #d1dde3, #f8ffff);
-    color: #000;
+    width: 100vw;
+    height: 100vh;
 }
 .title{
-    margin: 3vh 10vw;
+    margin: 0;
     text-align: center;
-    font-size: 30px;
-    padding: 8px 10vw 0 10vw;
-    width: 80vw;
+    font-size: 35px;
+    font-weight: 700;
+    width: 100vw;
     height: 10vh;
-    /* border: 1px solid #d1dde3; */
-    border-radius: 30px;
-    background: linear-gradient(145deg, #d1dde3, #f8ffff);
-    box-shadow:  34px 34px 68px #b3bdc2,
-                 -34px -34px 68px #ffffff;
+    background: #000;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.555);
     box-sizing: border-box;
-    color: #000;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.555);
 }
 .content{
-    height: 82vh;
-    width: 80vw;
-    margin: 0 10vw;
+    height: 85vh;
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
 }
 .cards{
-    margin-top: 5vh;
-    height: 78vh;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    margin: 0 0 0 8vw;
+    height: 75vh;
 }
 .card{
     margin-right: 5px;
@@ -42,23 +36,36 @@ body{
     height: 38vh;
     color: #000;
     float: left;
-    /* border: 1px solid #d1dde3;
+    border: 2px outset #d1dde3;
     border-radius: 30px;
     background: linear-gradient(145deg, #d1dde3, #f8ffff);
-    box-shadow:  34px 34px 68px #b3bdc2,
-                 -34px -34px 68px #ffffff; */
+    box-shadow:  10px 10px 20px #b3bdc2,
+                 -10px -10px 20px #ffffff;
     text-align: center;
     align-items: center;
     justify-content: center;
     display: flex;
 }
-.card:hover{
-    scale: 1.1;
-    /* border: 1px solid #d1dde3; */
-    border-radius: 30px;
-    background: linear-gradient(145deg, #d1dde3, #f8ffff);
-    box-shadow:  34px 34px 68px #b3bdc2,
-                 -34px -34px 68px #ffffff;
+.card-1{
+    margin-right: 2vw;
+    margin-bottom: 3vh;
+}
+.card-2{
+    margin-right: 2vw;
+    margin-bottom: 3vh;
+}
+.card-3{
+    margin-right: 2vw;
+    margin-bottom: 3vh;
+}
+.card-4{
+    margin-right: 2vw;
+}
+.card-5{
+    margin-right: 2vw;
+}
+.card-6{
+    margin-right: 2vw;
 }
 a{
     text-decoration: none;
@@ -106,7 +113,7 @@ a{
 /* Mobile */
 @media only screen and (max-width: 600px){
     .title{
-        font-size: 25px;
+        /* font-size: 25px;
         font-weight: 700;
         display: flex;
         background: #000;
@@ -114,30 +121,30 @@ a{
         color: #ffffff;
         margin: 0;
         border-radius: 0;
-        width: 100vw;
+        width: 100vw; */
     }
     .title span{
-        position: absolute;
-        margin: 20px 30px;
+        /* position: absolute;
+        margin: 20px 30px; */
     }
     .content{
-        width: 90vw;
+        /* width: 90vw;
         height: 90vh;
-        display: contents;
+        display: contents; */
     }
     .card{
-        display: contents;
+        /* display: contents;
         width: 30vw;
-        height: 20vh;
+        height: 20vh; */
     }
     .card a{
-        padding: 25px;
+        /* padding: 25px;
         color: #000;
         float: left;
         border: 2px solid #d1dde3;
         border-radius: 30px;
         background: linear-gradient(145deg, #d1dde3, #f8ffff);
         box-shadow:  34px 34px 68px #b3bdc2,
-                 -34px -34px 68px #ffffff;
+                 -34px -34px 68px #ffffff; */
     }
 }
