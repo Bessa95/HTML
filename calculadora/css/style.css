@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@font-face {
+    font-family: digital-7;
+    src: url(../src/digital-7.ttf);
+}
 
 body{
     margin: 0;
@@ -28,6 +33,26 @@ body{
    border-radius: 10px;
    background: rgb(146,148,137);
    background: linear-gradient(90deg, rgba(146,148,137,1) 0%, rgba(208,222,143,1) 50%, rgba(167,185,88,1) 100%);
+   /* font-family: 'Orbitron', sans-serif; */
+   font-family: digital-7;
+   color: #2e2d2d;
+   /* display: flex; */
+   /* flex-wrap: wrap; */
+   padding: 5px;
+   text-align: right;
+}
+#time{
+    font-size: 18px;
+    margin: 0 215px 0 0;
+}
+#date{
+    font-size: 18px;
+    margin: -20px 0 0 130px;
+}
+#display{
+    font-size: 68px;
+    margin: 5px 0 0 -200px;
+    text-align: right;
 }
 #buttons{
     display: flex;
@@ -39,13 +64,16 @@ body{
 .btn{
     height: 40px;
     width: 55px;
-    border: 2px inset #A3A3A3;
+    border: 2px outset #A3A3A3;
     border-radius: 5px;
     background: #575757;
     text-align: center;
 }
 .btn:hover{
     cursor: pointer;
+}
+.btn:active{
+    border: 2px inset #A3A3A3;
 }
 .btn-ac{
     background: #F2793F;
@@ -108,16 +136,4 @@ body{
 }
 .btn-igual{
     margin: -50px 8px 8px 0;
-}
-
-
-/* Mobile */
-@media only screen and (max-width: 600px){
-    #calc{
-        height: 60vh;
-        margin: 15vh auto;
-    }
-    .tela{
-        margin: 6vh auto;
-    }
 }
