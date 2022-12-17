@@ -38,11 +38,11 @@ class CalcController{
 
         let buttons = document.querySelectorAll(".btn")
 
-        buttons.forEach((btn, index) =>{
+        buttons.forEach((btn, index) => {
 
             this.addEventListenerAll(btn, "click drag", e => {
 
-                console.log(btn.className.replace("btn", ""))
+                console.log(btn.className.replace("btn btn-", ""))
 
             })
 
