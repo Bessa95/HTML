@@ -2,6 +2,7 @@ class CalcController{
 
     constructor(){
 
+        this._operation = []
         this._locale = "pt-BR"
         this._displayCalcEl = document.querySelector("#display")
         this._timeEl = document.querySelector("#time")
@@ -34,6 +35,27 @@ class CalcController{
 
     }
 
+    clearAll(){
+
+
+
+    }
+
+    execBtn(value){
+
+        switch(value){
+
+            case "ac":
+                this.clearAll()
+            break
+            case 'btn-ce':
+                this.clearEntry()
+            break
+
+        }
+
+    }
+
     iniButtonsEvents(){
 
         let buttons = document.querySelectorAll(".btn")
@@ -42,7 +64,9 @@ class CalcController{
 
             this.addEventListenerAll(btn, "click drag", e => {
 
-                console.log(btn.className.replace("btn btn-", ""))
+                let textBtn = btn.className.replace("btn btn-", "")
+
+                this.execBtn(textBtn)
 
             })
 
