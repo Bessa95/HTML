@@ -16,9 +16,9 @@ body{
     box-sizing: border-box;
 }
 #calc{
-    height: 80vh;
+    height: 500px;
     width: 300px;
-    margin: 10vh auto;
+    margin: 50px auto;
     border: 5px inset #CECECE;
     border-radius: 30px;
     background: #DEDEDE;
@@ -26,9 +26,9 @@ body{
     box-sizing: border-box;
 }
 .tela{
-   height: 13vh;
+   height: 100px;
    width: 250px; 
-   margin: 8vh auto;
+   margin: 40px auto;
    border: 3px inset #A3A3A3;
    border-radius: 10px;
    background: rgb(146,148,137);
@@ -142,10 +142,10 @@ body{
 @media only screen and (max-width: 600px){
 
     #calc{
-        height: 58vh;
+        height: 510px;
     }
     .tela{
-        margin: 5vh auto;
+        margin: 50px auto;
     }
 
 }
