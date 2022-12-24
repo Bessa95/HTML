@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    background: #14131F;
+    font-family: 'Chivo Mono', monospace;
+}
+.background-circle-orange{
+    background: #F76300;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    box-shadow: 3px 3px 3px 3px #F76300, -3px -3px 3px 3px #F76300;
+    margin: 50px 0 0 350px;
+    position: relative;
+    z-index: -1;
+}
+.background-circle-blue{
+    background: #007BBC;
+    height: 200px;
+    width: 200px;
+    float: right;
+    border-radius: 100px;
+    box-shadow: 3px 3px 3px 3px #007BBC, -3px -3px 3px 3px #007BBC;
+    margin: 150px 350px 0 0;
+    position: relative;
+    z-index: -1;
+}
+.login{
+    width: 450px;
+    height: 400px;
+    background: #fefeff57;
+    margin: -120px auto;
+    border: 2px double #fff;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+}
+.login > h1{
+    margin: 50px 0 30px 0;
+}
+.form-login{
+    font-size: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 50px;
+}
+.form-login > label{
+    margin-top: 10px;
+}
+.form-login > input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    background: #00000057;
+    color: #fff;
+    font-size: 24px;
+}
+.form-login > button{
+    margin-top: 30px;
+}
+.login-enter{
+    height: 40px;
+    width: 80px;
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 30px;
+    background: #F76300;
+    color: #fff;
+    cursor: pointer;
+}
+.login-enter:hover{
+    border: 1px solid #fff;
+}
+.login-signup{
+    height: 40px;
+    width: 100px;
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #007BBC;
+    color: #fff;
+    cursor: pointer;
+}
+.login-signup:hover{
+    border: 1px solid #fff;
+}

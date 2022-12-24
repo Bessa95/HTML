@@ -56,23 +56,24 @@ a {
   align-items: center;
   text-align: center;
 }
-.search{
+.form-cep{
+  display: flex;
+}
+.input-cep{
     height: 25px;
-    width: 100px;
-    border-radius: 10px;
-	padding: 1rem;
-	width: 50%;
-	font-size: 1.2rem;
+    width: 300px;
+    border-radius: 10px 0 0 10px;
     border: none;
-    margin-right: 5px;
+	  padding: 1rem;
+	  font-size: 18px;
 }
-.inner-header > button{
-    border-radius: 10px;
-    border: none;
-    background: #fff;
-    cursor: pointer;
+.btn-cep{
+  border-radius: 0 10px 10px 0;
+  border: none;
+  background: #0b0d1f;
+  cursor: pointer;
 }
-.inner-header > button > img{
+.inner-header > .form-cep > button > img{
     height: 25px;
     padding: 0.8rem;
 }
@@ -91,6 +92,14 @@ a {
   height:20vh;
   text-align:center;
   background-color: white;
+}
+.about{
+  font-size: 20px;
+  font-weight: 700;
+  color: #0b0d1f;
+}
+.about > p > a:hover{
+  color: #f57c0a;
 }
 
 /* Animation */
