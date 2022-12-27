@@ -137,3 +137,24 @@ header{
     filter: grayscale(0);
     filter: drop-shadow(#000 10px 10px 10px);
 }
+.text-container-contacts{
+    width: 50vw;
+    height: 80vh;
+    padding:10px;
+    border-radius: 5px;
+    margin-top: 50px;  
+    color: #FFECDE;
+    font-size: 22px;
+    box-sizing: border-box;
+}
+.contacts{
+    width: 30%;
+    /* aspect-ratio: 3/2; */
+    /* object-fit: contain; */
+    filter: grayscale(100%);
+    mix-blend-mode: color-burn;
+}
+.contacts:hover{
+    filter: opacity(100%);
+    mix-blend-mode: normal;
+}
