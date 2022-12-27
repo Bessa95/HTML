@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 body{
@@ -15,8 +15,6 @@ header{
     width: 100%;
     height: 10vh;
     display: flex;
-    /* align-items: center; */
-    /* justify-content: space-evenly; */
 }
 .navbar-icon{
     height: 8vh;
@@ -24,9 +22,9 @@ header{
     margin: 5px;
 }
 .navbar-btn{
-    /* float: right; */
     display: flex;
     align-items: flex-end;
+    margin-left: 58vw;
 }
 .link-home-button{
     text-decoration: none;
@@ -51,6 +49,19 @@ header{
     cursor: pointer;
 }
 .link-projects-button:hover{
+    background: #60A1DF;
+    color: #FFECDE;
+}
+.link-about-button{
+    text-decoration: none;
+    padding: 21.5px;
+    background: #1B191A;
+    color: #60A1DF;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+}
+.link-about-button:hover{
     background: #60A1DF;
     color: #FFECDE;
 }
@@ -104,4 +115,25 @@ header{
 .title{
     font-size: 32px;
     font-weight: 500;
+}
+.text-container-projects{
+    width: 50vw;
+    height: 80vh;
+    padding:10px;
+    background: #64606077;
+    border-radius: 5px;
+    margin-top: 50px;  
+    color: #FFECDE;
+    font-size: 22px;
+    box-sizing: border-box;
+}
+.projects{
+    width: 30%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    filter: grayscale(60%);
+}
+.projects:hover{
+    filter: grayscale(0);
+    filter: drop-shadow(#000 10px 10px 10px);
 }
