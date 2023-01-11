@@ -24,10 +24,13 @@ body{
     width: 50vw;
     /* padding: 0 50px; */
 }
+.logo-home{
+    margin: 40px;
+}
 .content-login{
     width: 472px;
     height: 412px;
-    margin: 103px auto;
+    margin: 23px auto;
     padding: 10px;
     background: var(--form-background);
 }
@@ -36,7 +39,7 @@ body{
     padding: 10px 90px;
     display: flex;
     flex-wrap: wrap;
-    font-size: 14px;
+    font-size: 12px;
 }
 .title{
     color: var(--text-title);
@@ -44,37 +47,61 @@ body{
     font-weight: 700;
 }
 .input-date{
-    width: 235px;
+    width: 300px;
     height: 33px;
-    border-radius: 8px;
+    border: 2px solid var(--text-base);
+    border-radius: 5px;
+    background: var(--form-background);
+    color: var(--text-base);
+    font-size: 14px;
 }
-.input-date:checked{
-    border-color: var(--primary-color);
-}
-.lembrar-senha{
-    width: 30px;
+.input-date:focus{
+    border: 3px solid var(--primary-color);
     background: var(--form-background);
 }
-.lembrar-senha:checked{
-    background-color: var(--primary-color);
+#email{
+    background: url(../img/mail.svg) no-repeat;
+    margin-bottom: 15px;
+}
+#email:focus{
+    background: url(../img/mail-focus.svg) no-repeat;
+}
+#password{
+    background: url(../img/lock.svg) no-repeat;
+    margin-bottom: 10px;
+}
+#password:focus{
+    background: url(../img/lock-focus.svg) no-repeat;
+}
+.remember-new{
+    margin: -4px;
+    width: 310px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.checkbox-remember{
+    display: flex;
+}
+.lembrar-senha{
+    height: 15px;
+    width: 15px;
+    background: var(--form-background);
+}
+.lembrar-senha:focus{
+    background: var(--primary-color);
 }
 .nova-senha{
     color: var(--primary-color);
     text-decoration: none;
     font-weight: 600;
 }
-.cadastro, .cadastro a{
-    color: var(--primary-color);
-    text-decoration: none;
-}
-.cadastro a{
-    font-weight: 600;
-}
 .entrar{
-    width: 242px;
+    margin-top: 15px;
+    width: 300px;
     height: 40px;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     background: var(--primary-color);
     /* color: var(--text-base); */
     font-family: 'Poppins', 'Roboto', sans-serif;
@@ -84,15 +111,86 @@ body{
 .entrar:hover{
     cursor: pointer;
 }
+.cadastro{
+    font-weight: 100;
+    width: 300px;
+    text-align: center;
+}
+.cadastro, .cadastro a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.cadastro a{
+    font-weight: 600;
+}
 .right-image{
     width: 50vw;
-    margin: 0 !important;
-    padding: 0 !important;
-    border: 0;
+    
 }
 .img{
     width: 50vw;
     height: 100vh;
     /* aspect-ratio: 3/2; */
     /* object-fit: contain; */
+}
+
+
+/* Large Screen */
+@media only screen and (max-width: 1200px){
+    
+}
+/* Notebook */
+@media only screen and (max-width: 992px){
+
+}
+/* Tablet */
+@media only screen and (max-width: 768px){
+
+}
+/* Mobile */
+@media only screen and (max-width: 600px){
+    .left-form{
+        width: 100vw;
+    }
+    .logo-home{
+        margin: 20px;
+    }
+    .content-login{
+        margin-top: -25px;
+        width: 100vw;
+        background: var(--background);
+    }
+    .subtitle{
+        margin: -20px 0 40px 0;
+    }
+    .form-login{
+        border: none;
+        background: var(--background);
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    #email{
+        margin-bottom: 30px;
+    }
+    #password{
+        margin-bottom: 30px;
+    }
+    .input-date{
+        width: 350px;
+    }
+    .remember-new{
+        width: 360px;
+    }
+    .entrar{
+        width: 350px;
+    }
+    .cadastro{
+        width: 350px;
+    }
+    .right-image{
+        width: 0;
+    }
+    .img{
+        width: 0;
+    }
 }
