@@ -112,3 +112,72 @@ li:hover{
 .tips-projects img{
     width: 46vw;
 }
+
+
+/* Large Screen */
+@media only screen and (max-width: 1200px){
+
+}
+/* Notebook */
+@media only screen and (max-width: 992px){
+
+}
+/* Tablet */
+@media only screen and (max-width: 768px){
+
+}
+/* Mobile */
+@media only screen and (max-width: 600px){
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .left-menu{
+        width: 100vw;
+        height: 15vh;
+    }
+    .perfil-img{
+        position: absolute;
+        left: 0;
+        margin: 10px;
+        width: 20vw;
+        border: 3px solid var(--buttons);
+    }
+    .name{
+        display: none;
+    }
+    .social-media{
+        display: none;
+    }
+    .menu{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .html-projects, .js-projects, .py-projects, .c-projects{
+        display: none;
+    }
+    .home, .about{
+        text-decoration: none;
+    }
+    li{
+        list-style: none;
+        color: var(--back);
+        margin-bottom: 10px;
+    }
+    li:hover{
+        color: var(--links-hover);
+    }
+    .menu img{
+        width: 22px;
+    }
+    .baseboard{
+        display: none;
+    }
+    .tips-projects{
+        width: 100vw;
+        height: 85vh;
+    }
+}
