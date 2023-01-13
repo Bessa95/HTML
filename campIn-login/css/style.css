@@ -161,7 +161,8 @@ body{
         background: var(--background);
     }
     .subtitle{
-        margin: 0 0 40px 0;
+        margin-top: -10px;
+        margin-bottom: 40px;
     }
     .form-login{
         border: none;
