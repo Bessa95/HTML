@@ -15,6 +15,7 @@ body{
 .content{
     width: 100vw;
     height: 100vh;
+    display: flex;
     box-sizing: border-box;
 }
 .left-menu{
@@ -50,28 +51,28 @@ body{
     border: 10px solid var(--links);
 }
 .mail:hover{
-    background: #FF5739;
-    border: 10px solid #FF5739;
+    background: var(--links-hover);
+    border: 10px solid var(--links-hover);
 }
 .github:hover{
-    background: #8230A4;
-    border: 10px solid #8230A4;
+    background: var(--links-hover);
+    border: 10px solid var(--links-hover);
 }
 .instagram:hover{
-    background: #FF1C77;
-    border: 10px solid #FF1C77;
+    background: var(--links-hover);
+    border: 10px solid var(--links-hover);
 }.linkedin:hover{
-    background: #0A65C0;
-    border: 10px solid #0A65C0;
+    background: var(--links-hover);
+    border: 10px solid var(--links-hover);
 }.telegram:hover{
-    background: #4DB5F9;
-    border: 10px solid #4DB5F9;
+    background: var(--links-hover);
+    border: 10px solid var(--links-hover);
 }.whatsapp:hover{
-    background: #0CC243;
-    border: 10px solid #0CC243;
+    background: var(--links-hover);
+    border: 10px solid var(--links-hover);
 }
 .menu{
-    /* margin-top: 20px; */
+    font-size: 14px;
 }
 .menu a{
     text-decoration: none;
@@ -93,6 +94,7 @@ li:hover{
     margin: 5px auto;
     width: 30vw;
     text-align: center;
+    font-size: 12px;
 }
 .baseboard span{
     color: var(--back);
@@ -100,4 +102,13 @@ li:hover{
 .baseboard a{
     color: var(--links-hover);
     text-decoration: none;
+}
+.tips-projects{
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.tips-projects img{
+    width: 46vw;
 }
